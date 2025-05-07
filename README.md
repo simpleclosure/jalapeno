@@ -45,12 +45,13 @@ You must:
 3. **Code**: 
 Use clear, modular code. Break things into reusable components when it makes sense.
 
-## ✨ Extras (if time permits)
+## ✨ Extras (if time permits, choose freely)
 
 - **UI Improvements:**
     - Make the grid responsive
     - Add a UI for filtering and/or sorting
-    - Handle missing poster images gracefully
-    - Add a loading state
+    - Add CSS transitions
+    - Adjust element sizing based on rating (e.g., larger sizes for higher-rated items)
+    - Implement a random layout option for the grid
 - **Testing**: How would you approach testing this feature?
 - **Caching**: How would you approach caching the API response for performance?
