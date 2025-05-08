@@ -1,0 +1,8 @@
+steps:
+- see what the shape of response is, test with Postman or write a simple test script
+    - definitely need: image, title
+    - one other property of my choice
+    - simple hover effect
+- write a backend route to fetch the images from API, make sure the route has type safety (use Zod to make sure the response matches the schema we expect)
+- create an ImageGrid (use client) component that calls the backend route and stores the images in frontend state
+- nest that component at the page level (page stays a server component)
